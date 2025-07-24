@@ -21,7 +21,7 @@ Simple javafx application that assists users keeping track of stock trends to ma
 
 1. Clone project by using ```git clone```
 ```
-    git clone https://github.com/aqd14/stock-tracker.git
+    https://github.com/ajinkyaspatil20/JinxStocks.git
 ```
 2. Build project with ```maven```
 ```
