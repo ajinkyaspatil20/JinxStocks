@@ -1,4 +1,4 @@
-# stock-tracker
+# stock-tracker -BY Ajinkya (JinxStocks)
 Simple javafx application that assists users keeping track of stock trends to make decision.
 
 
@@ -59,7 +59,7 @@ User need to enter some basic information in order to register for the app.
 
 The app restricts some rules on registered information such as:
 + Length of username, password should be sufficiently long
-+ Should give a correct email (e.g., someuser@somedomain.com)
++ Should give a correct email (e.g., ajinkyaspatil2011@gmai.com)
 + First name/ last name should not contain special characters (e.g., %@&^%*#^)
 + ...
 
@@ -69,19 +69,22 @@ The app restricts some rules on registered information such as:
 
 After succesfully logged in, user will be redirect to the main screen. It includes default 30 stocks and their current price changes compared to the price of last closing day of stock market. User can also add/remove prefered stocks and the configuration will be saved for next log in.
 
-![Alt text](screenshots/main-screen.jpg?raw=true "Main Screen")
+<img width="1036" height="422" alt="image" src="https://github.com/user-attachments/assets/d0468c6b-ba5d-46d1-b6e4-a99df6f2d7f6" />
+
 
 #### Search in interested stocks
 
 If user is interested in too many stock and it's hard to find one, he can user the **Search** option on the right hand. The matched results will display when user typing.
 
-![Alt text](screenshots/search-stock.jpg?raw=true "Search Stock")
+<img width="1044" height="430" alt="image" src="https://github.com/user-attachments/assets/1093a129-9e21-4623-8b62-482d1f4d4b63" />
+
 
 #### Remove stock and set alert
 
 User can remove the stocks that he no longer interested in by right clicking on the stock. He can also set the price alert for that stock and whenever the price reaches set value, an email and a text message will be sent to registered email and phone number.
 
-![Alt text](screenshots/alert.jpg?raw=true "Alert")
+<img width="306" height="400" alt="image" src="https://github.com/user-attachments/assets/8e843722-6ebb-48c4-a2e3-6145fa1070c2" />
+
 
 We support three types of alert:
 1. Value alert -- notify user if the stock price reached the set value
@@ -92,7 +95,8 @@ We support three types of alert:
 
 User can add stocks by using the **Click** button. The app incorporates the stocks from two stock markets, NASDAQ and NYSE.
 
-![Alt text](screenshots/add-stock.jpg?raw=true "Alert")
+<img width="501" height="598" alt="image" src="https://github.com/user-attachments/assets/16ea1ff0-0d18-499b-9db2-2dd403badcc6" />
+
 
 #### Buy stock
 
