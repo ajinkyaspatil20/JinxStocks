@@ -1,0 +1,94 @@
+
+
+.error_message {
+  -fx-fill: FIREBRICK;
+  -fx-font-weight: bold;
+  -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );  
+}
+
+// Used to represent an action of user such as Login, Register, etc..
+.custom_button {
+    -fx-background-color: #2196f3;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+	-fx-text-fill: white;
+	-fx-font: 16px Helvetica;
+}
+
+.custom_button:hover {
+    -fx-background-color: #015dbc;
+}
+
+.custom_button:pressed {
+	-fx-background-color: #013163;
+}
+
+// Used to represent an back action of user
+.back_button {
+    -fx-background-color: #707172;
+    -fx-text-fill: white;
+	-fx-font: 16px Helvetica;
+}
+
+.back_button:hover {
+    -fx-background-color: #575959;
+}
+
+.back_button:pressed {
+	-fx-background-color: #545556;
+}
+
+// Used to represent a sell action
+.sell_button {
+    -fx-background-color: #18bc6a;
+    -fx-text-fill: white;
+	-fx-font: 16px Helvetica;
+}
+
+.sell_button:hover {
+    -fx-background-color: #129b57;
+}
+
+.sell_button:pressed {
+	-fx-background-color: #0c6d3d;
+}
+
+// Used to represent a sell action
+.export_button {
+    -fx-background-color: #4277f4;
+    -fx-text-fill: white;
+	-fx-font: 16px Helvetica;
+}
+
+.export_button:hover {
+    -fx-background-color: #2f5ece;
+}
+
+.export_button:pressed {
+	-fx-background-color: #254caa;
+}
+
+.register:hover {
+	-fx-underline: true;
+}
+
+.reset:hover {
+	-fx-underline: true;
+}
+
+.text-field:error {
+  	-fx-text-box-border: red ;
+	-fx-focus-color: red ;
+}
+
+.chart-series-line {
+	-fx-stroke: #508ced;    
+    -fx-stroke-width: 3px;
+    -fx-effect: null;
+}
+
+.default-color0.chart-line-symbol { 
+	-fx-background-color: #508ced, white;
+}
+
+.default-color1.chart-series-line { -fx-stroke: #dda0dd; }
+
