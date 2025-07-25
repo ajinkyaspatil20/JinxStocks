@@ -4,7 +4,7 @@
 package main.java.common;
 
 /**
- * @author aqd14
+ * @author aqd14574
  *
  */
 public class CommonDefine {
