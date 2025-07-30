@@ -1,4 +1,4 @@
-# stock-tracker -BY Ajinkya (JinxStocks)
+### stock-tracker -BY Ajinkya (JinxStocks)
 Simple javafx application that assists users keeping track of stock trends to make decision.
 
 
